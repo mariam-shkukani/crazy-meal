@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crazy Meal </title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Crazy Meal </h1>
+    <nav>
+        <a href="menu.html">View Menu</a>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <h2>Add a New Order</h2>
+    <form id="orderForm">
+      
+      <input id="mealName" type="text" name="mealName" placeholder="Meal Name" required />
+      
+      <input id="mealPrice" type="number" name="mealPrice" placeholder="Meal Price" required />
+      
+      <input id="mealImage" type="text" name="mealImage" placeholder="Meal Image URL" required />
+      <button type="submit">Add Order</button>
+    </form>
+
+    <h2>Orders List</h2>
+    <table id="ordersTable" border="1">
+      <thead>
+        <tr>
+          <th>Meal Name</th>
+          <th>Price</th>
+          <th>Image</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Orders will be displayed here -->
+      </tbody>
+    </table>
+    <button id="clearOrders">Clear All Orders</button>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>mariam - 2025</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
