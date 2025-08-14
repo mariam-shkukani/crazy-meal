@@ -2,7 +2,10 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fff7f0;
+  background-image: url('download.jpg'); 
+  background-size: cover; 
+  background-position: center;  
+  background-repeat: no-repeat; 
 }
 
 header, footer {
@@ -16,6 +19,8 @@ main {
   padding: 20px;
   max-width: 800px;
   margin: auto;
+  background-color: rgba(255, 247, 240, 0.85); 
+  border-radius: 10px;
 }
 
 form input, form button {
@@ -62,7 +67,9 @@ th, td {
   border-radius: 10px;
   object-fit: cover;
 }
-.menu-items{
+
+.menu-items {
   display: flex;
-  gap:10px ;
-flex-wrap: wrap;}
+  gap: 10px;
+  flex-wrap: wrap;
+}
