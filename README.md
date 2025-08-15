@@ -4,7 +4,7 @@ A simple web application to add and track chicken meal orders.
 
 ## Live Demo
 
-https://mariam-shkukani.github.io/crazy-meal/
+[https://mariam-shkukani.github.io/crazy-meal/]
 
 ### Questions
 
